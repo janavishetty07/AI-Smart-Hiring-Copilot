@@ -10,7 +10,7 @@ import io
 import pandas as pd
 
 # --- ESTABLISH ARCHITECTURAL SANITY & THEME ---
-st.set_page_config(page_title="AI Recruitment & Talent Management Copilot", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="AI-Driven Smart Hiring Platform with Candidate Matching Copilot", layout="wide", initial_sidebar_state="expanded")
 
 st.markdown("""
     <style>
@@ -129,7 +129,7 @@ def is_recruitment_query(question):
 
 def build_secure_prompt(context, question):
     return f"""
-You are the Enterprise AI Assistant for the AI Recruitment & Talent Management Copilot.
+You are the Enterprise AI Assistant for the AI-Driven Smart Hiring Platform with Candidate Matching Copilot.
 
 STRICT RULES
 
@@ -340,7 +340,7 @@ def extract_experience(text):
     return 0
 
 # --- SIDEBAR WORKSPACE CONTROL NAVIGATION ---
-st.sidebar.title("🤖 AI Recruitment & Talent Management Copilot")
+st.sidebar.title("🤖 AI-Driven Smart Hiring Platform with Candidate Matching Copilot")
 st.sidebar.markdown("---")
 module = st.sidebar.radio(
     "Navigation Workspace",
@@ -1431,7 +1431,7 @@ elif module == "Automated Communication Hub":
 
                 st.warning(
                     "❌ This question is outside the scope of the "
-                    "AI Recruitment & Talent Management Copilot.\n\n"
+                    "AI-Driven Smart Hiring Platform with Candidate Matching Copilot.\n\n"
                     "Please ask questions related to candidates, "
                     "resumes, recruitment, job descriptions or project modules."
                 )
