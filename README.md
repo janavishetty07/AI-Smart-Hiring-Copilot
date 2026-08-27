@@ -65,16 +65,6 @@ pip install -r requirements.txt
 python -m streamlit run copilot_app.py
 ```
 
-## 🔮 Future Enhancements
-
-* Role-based login for **HR, Employee, and Admin**
-* Advanced resume analysis
-* HR analytics dashboard
-* Interview scheduling
-* Database integration
-* Cloud deployment
-* Integration with enterprise HR systems
-
 ## 🎓 Project
 
 Developed as part of the **Infosys Springboard Virtual Internship – AI Domain**.
@@ -87,3 +77,5 @@ B.Sc. Data Science & Analytics
 ## 📜 License
 
 This project is licensed under the **MIT License**.
+
+
